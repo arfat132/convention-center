@@ -10,11 +10,11 @@ body{
     font-weight: 600;
     margin-left: 15px;
 }
+
 .slider-btn{
     background: aliceblue;
     color: #538FFB;
     margin-bottom: 50px;
-   
 }
 
 /*----------------------------------
@@ -24,8 +24,8 @@ body{
 .btn-read-more{
     background: #538FFB;
     color: aliceblue;
-
 }
+
 i.fas.fa-arrow-right {
     background: none;
     color: aliceblue;
@@ -74,8 +74,8 @@ i.fas.fa-arrow-right {
 .special-package .check-mark{
     background:rgb(142 193 238 / 42%);
     color: aliceblue;
-    
 }
+
 .special-package a{
     margin-bottom: -30px;
     color: #538FFB;
@@ -83,7 +83,6 @@ i.fas.fa-arrow-right {
 .hot-sale{
     margin-left: 240px;
 }
-
 
 /*----------------------------------
     Client review custom css
@@ -112,6 +111,9 @@ i.fas.fa-arrow-right {
     }
     .slider-img{
         height: 370px !important;
+    }
+    .package-title{
+        margin-bottom: 20px;
     }
     .copyright{
         text-align: center;
