@@ -5,6 +5,7 @@ body{
 /*---------------------------
          Header css
 ---------------------------*/
+
 .menu-items li {
     font-weight: 600;
     margin-left: 15px;
@@ -16,9 +17,9 @@ body{
    
 }
 
-.package-title{
-    margin-bottom: 95px;
-}
+/*----------------------------------
+    Packages custom css
+----------------------------------*/
 
 .special-package{
     background:#538FFB;
@@ -29,10 +30,16 @@ body{
     margin-right: 8x;
     margin-left: -8px;
 }
+
+.package-title{
+    margin-bottom: 95px;
+}
+
 .special-package p{
     color: white;
     margin-bottom: 10px;
 }
+
 .special-package .check-mark{
     background:rgb(142 193 238 / 42%);
     
@@ -58,8 +65,33 @@ body{
     text-align: center;
     margin-right: 10px;
 }
+
+/*----------------------------------
+    Client review custom css
+----------------------------------*/
+
 .client-review{
     margin-bottom: -18px !important;
 }
+ 
+/*----------------------------------
+        Media queries for slider
+----------------------------------*/
 
+@media only screen and  (max-device-width: 577px){
+    .slider-title{
+        font-size: 1.5rem !important;
 
+    }
+    .slider-text{
+        font-size: 0.7rem !important;
+    }
+    .slider-btn{
+        
+        margin-bottom:10px;
+       
+    }
+    .slider-img{
+        height: 370px !important;
+    }
+}

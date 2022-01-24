@@ -25,9 +25,12 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav fs-5 ms-auto menu-items">
+                    <ul class="navbar-nav fs-6 ms-auto menu-items">
                         <li class="nav-item">
-                            <a class="nav-link active ps-2" aria-current="page" href="#">HOME</a>
+                            <a class="nav-link active ps-2" aria-current="page" href="#home">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active ps-2" aria-current="page" href="#about-us">ABOUT US</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active ps-2" aria-current="page" href="#services">SERVICES</a>
@@ -43,6 +46,7 @@
             </div>
         </nav>
         <!-- Slide here -->
+       <section id="home">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -54,31 +58,31 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/slider-image-1.jpg" height="650" width="100%" class="img-fluid d-block w-100"
+                    <img src="images/slider-image-1.jpg" height="650" width="100%" class="img-fluid slider-img d-block w-100"
                         alt="...">
                     <div class="carousel-caption d-md-block">
-                        <h1 class="fs-2 fs-sm-5">Memorable events don’t just happen. They happen to be our business.
+                        <h1 class="fs-2 slider-title">Memorable events don’t just happen. They happen to be our business.
                         </h1>
-                        <p>We are ready to make your most important day more memorable.</p>
+                        <p class="slider-text">We are ready to make your most important day more memorable.</p>
                         <a href="" class="btn fw-bold slider-btn px-4 py-2">BOOK NOW</a>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/slider-image-2.jpg" height="550" width="100%" class="img-fluid d-block w-100"
+                    <img src="images/slider-image-2.jpg" height="550" width="100%" class="img-fluid slider-img d-block w-100"
                         alt="...">
                     <div class="carousel-caption d-md-block">
-                        <h1 class="fs-2">Every love story is beautiful, but yours should be unique</h1>
-                        <p>We commit to producing, striving for a natural balance of unique details and making sure our
+                        <h1 class="fs-2 slider-title">Every love story is beautiful, but yours should be unique</h1>
+                        <p class="slider-text">We commit to producing, striving for a natural balance of unique details and making sure our
                             couples have the most amazing time on their wedding day.</p>
                         <a href="" class="btn fw-bold slider-btn px-4 py-2">BOOK NOW</a>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/slider-image-3.jpg" height="550" width="100%" class="img-fluid d-block w-100"
+                    <img src="images/slider-image-3.jpg" height="550" width="100%" class="img-fluid slider-img d-block w-100"
                         alt="...">
                     <div class="carousel-caption d-md-block">
-                        <h1 class="fs-2">The Perfect Venue For Your Next Event</h1>
-                        <p>We embrace the culture and personal connection to any event.</p>
+                        <h1 class="fs-2 slider-title">The Perfect Venue For Your Next Event</h1>
+                        <p class="slider-text">We embrace the culture and personal connection to any event.</p>
                         <a href="" class="btn fw-bold slider-btn px-4 py-2">BOOK NOW</a>
                     </div>
                 </div>
@@ -94,8 +98,22 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+       </section>
     </header>
     <main class="overflow-hidden">
+        <!-- About us -->
+        <section class="container my-5" id="about-us">
+            <div class="about-us row row-cols-1 row-cols-md-2 g-5 align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <img src="images/about-us.jpg" width="100%" height="400" class="rounded-3" alt="">
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <h1 class="fw-bold">Every Moment Is Precious</h1>
+                    <p class="fw-normal text-secondary">An event management company can take care of all the organisation and tasks to deliver a successful event, allowing you to focus on the day and your guests. We design, manage, and implement all types of sports events, ceremonies and exhibitions. we offer and develop original concepts that are unique and on-brand. Master experience design. Unique experiences. Outstanding services.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Why choose us -->
         <section class="container" id="services">
             <div class="services">
                 <h1 class="text-center fw-bold my-5">Why Choose Us</h1>
@@ -105,7 +123,7 @@
                             <img src="images/event-planing.jpg" class="card-img-top p-3" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">Event Planing</h5>
-                                <p class="card-text">Wedding planner includes all aspects of the day like clothing and
+                                <p class="card-text text-secondary pb-3">Wedding planner includes all aspects of the day like clothing and
                                     flowers, to venues for ceremony, to food, drink and entertainment, and so on.</p>
                             </div>
                         </div>
@@ -115,7 +133,7 @@
                             <img src="images/floral.jpg" class="card-img-top p-3" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">Floral Design</h5>
-                                <p class="card-text">While flowers with a love connection,there are many other
+                                <p class="card-text text-secondary pb-3">While flowers with a love connection,there are many other
                                     meaningful traits like new beginnings, faith, and perseverance to consider. </p>
                             </div>
                         </div>
@@ -125,7 +143,7 @@
                             <img src="images/cake.jpg" class="card-img-top p-3" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">Cake Design</h5>
-                                <p class="card-text">It is usually coated and decorated with frosting. The layers may be
+                                <p class="card-text text-secondary pb-3">It is usually coated and decorated with frosting. The layers may be
                                     filled with frosting, pastry cream, lemon curd, or other cake fillings. </p>
                             </div>
                         </div>
@@ -135,7 +153,7 @@
                             <img src="images/photography.jpg" class="card-img-top p-3" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">Photography</h5>
-                                <p class="card-text">Wedding photography encompasses photographs of the couple before
+                                <p class="card-text text-secondary pb-3">Wedding photography encompasses photographs of the couple before
                                     marriage as well as coverage of the wedding and reception. </p>
                             </div>
                         </div>
@@ -225,9 +243,11 @@
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="shadow card p-3">
                             <div class="card-body">
-                                <p class="card-text client-review">"I really appreciate the team and enjoy working with them all."</p>
+                                <p class="card-text client-review">"I really appreciate the team and enjoy working with
+                                    them all."</p>
                             </div>
-                            <img src="images/client-1.jpg" class="card-img-top p-3 rounded-circle mx-auto w-50 h-50" alt="...">
+                            <img src="images/client-1.jpg" class="card-img-top p-3 rounded-circle mx-auto w-50 h-50"
+                                alt="...">
                             <h3 class="fw-bold lh-1">Firecracker PR</h3>
                             <span class="text-secondary lh-1 fw-bold pb-3">Marketing Director</span>
                         </div>
@@ -235,9 +255,11 @@
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="shadow card p-3">
                             <div class="card-body">
-                                <p class="card-text client-review">“They’re able to meet deadlines quickly. They never drop the ball.”</p>
+                                <p class="card-text client-review">“They’re able to meet deadlines quickly. They never
+                                    drop the ball.”</p>
                             </div>
-                            <img src="images/client-2.jpg" class="card-img-top p-3 rounded-circle mx-auto w-50 h-50" alt="...">
+                            <img src="images/client-2.jpg" class="card-img-top p-3 rounded-circle mx-auto w-50 h-50"
+                                alt="...">
                             <h3 class="fw-bold lh-1">Jhon Doe</h3>
                             <span class="text-secondary lh-1 fw-bold pb-3">Businessman</span>
                         </div>
@@ -245,9 +267,11 @@
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="shadow card p-3">
                             <div class="card-body">
-                                <p class="card-text client-review">"They are great partners who are well connected in the community."</p>
+                                <p class="card-text client-review">"They are great partners who are well connected in
+                                    the community."</p>
                             </div>
-                            <img src="images/client-3.jpg" class="card-img-top p-3 rounded-circle mx-auto w-50 h-50" alt="...">
+                            <img src="images/client-3.jpg" class="card-img-top p-3 rounded-circle mx-auto w-50 h-50"
+                                alt="...">
                             <h3 class="fw-bold lh-1">Ariana Smith</h3>
                             <span class="text-secondary lh-1 fw-bold pb-3">Banker</span>
                         </div>
@@ -255,9 +279,11 @@
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="shadow card p-3">
                             <div class="card-body">
-                                <p class="card-text client-review">"They understood what I needed and delivered every time."</p>
+                                <p class="card-text client-review">"They understood what I needed and delivered every
+                                    time."</p>
                             </div>
-                            <img src="images/client-4.jpg" class="card-img-top p-3 rounded-circle mx-auto w-50 h-50" alt="...">
+                            <img src="images/client-4.jpg" class="card-img-top p-3 rounded-circle mx-auto w-50 h-50"
+                                alt="...">
                             <h3 class="fw-bold lh-1">Scarlett Jordan</h3>
                             <span class="text-secondary lh-1 fw-bold pb-3">Sr. Director</span>
                         </div>
@@ -346,10 +372,11 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
-                    <img src="images/slider-image-4.jpg" width="100%" height="400" class="rounded-3" alt="">
+                    <img src="images/faq-image.jpg" width="100%" height="400" class="rounded-3" alt="">
                 </div>
             </div>
         </section>
+        <!-- Toasts -->
         <section>
             <div class="toast show align-items-center  ms-auto mb-5" role="alert" aria-live="assertive"
                 aria-atoshow="true">
