@@ -5,51 +5,61 @@ body{
 /*---------------------------
          Header css
 ---------------------------*/
-.menu-items {
+.menu-items li {
     font-weight: 600;
+    margin-left: 15px;
 }
-.slider-description h1{
-    margin-top: -50px !important;
-}
-.btn-color{
-    background: #fafcff;
-    color: black;
+.slider-btn{
+    background: aliceblue;
+    color: #538FFB;
+    margin-bottom: 50px;
    
 }
+
 .package-title{
     margin-bottom: 95px;
 }
-.price-list p li{
-    list-style: none;
-    
-}
+
 .special-package{
     background:#538FFB;
     color: white;
     padding: 25px;
     margin-top: -35px;
     border-radius: 30px;
-    margin-right: 10px;
-    margin-left: -10px;
+    margin-right: 8x;
+    margin-left: -8px;
 }
 .special-package p{
     color: white;
     margin-bottom: 10px;
 }
+.special-package .check-mark{
+    background:rgb(142 193 238 / 42%);
+    
+}
 .special-package a{
     margin-bottom: -30px;
+    color: #538FFB;
+}
+.hot-sale{
+    margin-left: 240px;
 }
 .btn-color{
     background:#538FFB;
     color: white;
 }
 .fa, .fas {
-    font-weight: 700;
+    font-weight: 500;
     background: aliceblue;
+    color: #538FFB;
     border-radius: 50%;
     padding: 5px;
     margin-bottom: 5px;
     text-align: center;
     margin-right: 10px;
 }
+.client-review{
+    margin-bottom: -18px !important;
+}
+
 
