@@ -17,7 +17,7 @@
 <body>
     <!-- Header here -->
     <header class="overflow-hidden">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light my-2">
             <div class="container">
                 <a class="navbar-brand fs-3 fw-bold" href="#">Elite Convention Center</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -46,75 +46,85 @@
             </div>
         </nav>
         <!-- Slide here -->
-       <section id="home">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+        <section id="home">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/slider-image-1.jpg" height="650" width="100%"
+                            class="img-fluid slider-img d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block">
+                            <h1 class="fs-2 slider-title">Memorable events don’t just happen. They happen to be our
+                                business.</h1>
+                            <p class="slider-text">We are ready to make your most important day more memorable.</p>
+                            <a href="https://www.wedgewoodweddings.com/blog/wedding-professionals"
+                                class="btn fw-bold slider-btn px-4 py-2">BOOK NOW</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slider-image-2.jpg" height="550" width="100%"
+                            class="img-fluid slider-img d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block">
+                            <h1 class="fs-2 slider-title">Every love story is beautiful, but yours should be unique</h1>
+                            <p class="slider-text">We commit to producing, striving for a natural balance of unique
+                                details and making sure our
+                                couples have the most amazing time on their wedding day.</p>
+                            <a href="https://www.wedgewoodweddings.com/blog/wedding-professionals"
+                                class="btn fw-bold slider-btn px-4 py-2">BOOK NOW</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slider-image-3.jpg" height="550" width="100%"
+                            class="img-fluid slider-img d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block">
+                            <h1 class="fs-2 slider-title">The Perfect Venue For Your Next Event</h1>
+                            <p class="slider-text">We embrace the culture and personal connection to any event.</p>
+                            <a href="https://www.wedgewoodweddings.com/blog/wedding-professionals"
+                                class="btn fw-bold slider-btn px-4 py-2">BOOK NOW</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/slider-image-1.jpg" height="650" width="100%" class="img-fluid slider-img d-block w-100"
-                        alt="...">
-                    <div class="carousel-caption d-md-block">
-                        <h1 class="fs-2 slider-title">Memorable events don’t just happen. They happen to be our business.
-                        </h1>
-                        <p class="slider-text">We are ready to make your most important day more memorable.</p>
-                        <a href="" class="btn fw-bold slider-btn px-4 py-2">BOOK NOW</a>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/slider-image-2.jpg" height="550" width="100%" class="img-fluid slider-img d-block w-100"
-                        alt="...">
-                    <div class="carousel-caption d-md-block">
-                        <h1 class="fs-2 slider-title">Every love story is beautiful, but yours should be unique</h1>
-                        <p class="slider-text">We commit to producing, striving for a natural balance of unique details and making sure our
-                            couples have the most amazing time on their wedding day.</p>
-                        <a href="" class="btn fw-bold slider-btn px-4 py-2">BOOK NOW</a>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/slider-image-3.jpg" height="550" width="100%" class="img-fluid slider-img d-block w-100"
-                        alt="...">
-                    <div class="carousel-caption d-md-block">
-                        <h1 class="fs-2 slider-title">The Perfect Venue For Your Next Event</h1>
-                        <p class="slider-text">We embrace the culture and personal connection to any event.</p>
-                        <a href="" class="btn fw-bold slider-btn px-4 py-2">BOOK NOW</a>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-       </section>
+        </section>
     </header>
     <main class="overflow-hidden">
         <!-- About us -->
-        <section class="container my-5" id="about-us">
+        <section class="container my-5 pt-5" id="about-us">
             <div class="about-us row row-cols-1 row-cols-md-2 g-5 align-items-center">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <img src="images/about-us.jpg" width="100%" height="400" class="rounded-3" alt="">
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <h1 class="fw-bold">Every Moment Is Precious</h1>
-                    <p class="fw-normal text-secondary">An event management company can take care of all the organisation and tasks to deliver a successful event, allowing you to focus on the day and your guests. We design, manage, and implement all types of sports events, ceremonies and exhibitions. we offer and develop original concepts that are unique and on-brand. Master experience design. Unique experiences. Outstanding services.</p>
+                    <p class="fw-normal text-secondary">An event management company can take care of all the
+                        organisation and tasks to deliver a successful event, allowing you to focus on the day and your
+                        guests. We design, manage, and implement all types of sports events, ceremonies and exhibitions.
+                        we offer and develop original concepts that are unique and on-brand. Master experience design.
+                        Unique experiences. Outstanding services.</p>
+                    <a href="https://www.wedgewoodweddings.com/blog/wedding-professionals"
+                        class="btn fw-bold btn-read-more px-4 py-2">Read more <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </section>
         <!-- Why choose us -->
-        <section class="container" id="services">
+        <section class="container my-5 pt-1" id="services">
             <div class="services">
                 <h1 class="text-center fw-bold my-5">Why Choose Us</h1>
                 <div class="row text-center row-cols-1 row-cols-md-4 g-4">
@@ -123,8 +133,8 @@
                             <img src="images/event-planing.jpg" class="card-img-top p-3" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">Event Planing</h5>
-                                <p class="card-text text-secondary pb-3">Wedding planner includes all aspects of the day like clothing and
-                                    flowers, to venues for ceremony, to food, drink and entertainment, and so on.</p>
+                                <p class="card-text text-secondary pb-3">Wedding planner includes all aspects of the day
+                                    like clothing and flowers, to venues for ceremony, to food, drink and entertainment, and so on.</p>
                             </div>
                         </div>
                     </div>
@@ -133,8 +143,8 @@
                             <img src="images/floral.jpg" class="card-img-top p-3" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">Floral Design</h5>
-                                <p class="card-text text-secondary pb-3">While flowers with a love connection,there are many other
-                                    meaningful traits like new beginnings, faith, and perseverance to consider. </p>
+                                <p class="card-text text-secondary pb-3">While flowers with a love connection,there are
+                                    many other meaningful traits like new beginnings, faith, and perseverance to consider. </p>
                             </div>
                         </div>
                     </div>
@@ -143,8 +153,8 @@
                             <img src="images/cake.jpg" class="card-img-top p-3" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">Cake Design</h5>
-                                <p class="card-text text-secondary pb-3">It is usually coated and decorated with frosting. The layers may be
-                                    filled with frosting, pastry cream, lemon curd, or other cake fillings. </p>
+                                <p class="card-text text-secondary pb-3">It is usually coated and decorated with
+                                    frosting. The layers may be filled with frosting, pastry cream, lemon curd, or other cake fillings. </p>
                             </div>
                         </div>
                     </div>
@@ -153,8 +163,8 @@
                             <img src="images/photography.jpg" class="card-img-top p-3" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">Photography</h5>
-                                <p class="card-text text-secondary pb-3">Wedding photography encompasses photographs of the couple before
-                                    marriage as well as coverage of the wedding and reception. </p>
+                                <p class="card-text text-secondary pb-3">Wedding photography encompasses photographs of
+                                    the couple before marriage as well as coverage of the wedding and reception. </p>
                             </div>
                         </div>
                     </div>
@@ -162,12 +172,12 @@
             </div>
         </section>
         <!-- Packages section start here -->
-        <section class="container my-5" id="packages">
+        <section class="container my-5 pt-3" id="packages">
             <h1 class="text-center fw-bold package-title">Our Packages</h1>
             <div class="packages row row-cols-1 row-cols-md-4 g-4">
                 <div class="card border-0 col-lg-3 col-md-6 col-sm-12">
                     <div class="card-body price-list">
-                        <h1 class="fw-bold">$100</h1>
+                        <h1 class="fw-bold">$300</h1>
                         <h3 class="card-title fw-bold">Business Event</h3>
                         <p class="card-text text-secondary">For most businesses event
                             like book fair, craft fair. <br>
@@ -178,12 +188,13 @@
                             <i class="fas fa-check pe-2"></i>Decoration design <br>
                             <i class="fas fa-check pe-2"></i>Per day bill
                         </p>
-                        <a href="#" class="btn btn-color fw-bold rounded-pill px-5">Choose Plan</a>
+                        <a href="https://www.awesomeeventsph.co/weddingpackagesmanila.html"
+                            class="btn btn-color fw-bold rounded-pill px-5">Choose Plan</a>
                     </div>
                 </div>
                 <div class="card border-0 col-lg-3 col-md-6 col-sm-12 mb-5">
                     <div class="card-body">
-                        <h1 class="fw-bold">$300</h1>
+                        <h1 class="fw-bold">$500</h1>
                         <h3 class="card-title fw-bold">Wedding Event</h3>
                         <p class="card-text text-secondary">For most wedding event
                             like book fair, craft fair. <br>
@@ -194,14 +205,15 @@
                             <i class="fas fa-check pe-2"></i>Decoration design <br>
                             <i class="fas fa-check pe-2"></i>Per day bill
                         </p>
-                        <a href="#" class="btn btn-color fw-bold rounded-pill px-5">Choose Plan</a>
+                        <a href="https://www.awesomeeventsph.co/weddingpackagesmanila.html"
+                            class="btn btn-color fw-bold rounded-pill px-5">Choose Plan</a>
                     </div>
                 </div>
                 <div class="shadow card border-0 col-lg-3 col-md-6 col-sm-12 position-relative special-package">
                     <div class="card-body">
-                        <h1 class="fw-bold">$500</h1>
-                        <h3 class="card-title fw-bold">Business Fair</h3>
-                        <p class="card-text">For most businesses event
+                        <h1 class="fw-bold">$800</h1>
+                        <h3 class="card-title fw-bold">Wedding Plus</h3>
+                        <p class="card-text">For most premium wedding event
                             like book fair, craft fair. <br>
                             <br>
                             <i class="fas fa-check pe-2 check-mark"></i>limited space access <br>
@@ -210,7 +222,8 @@
                             <i class="fas fa-check pe-2 check-mark"></i>Decoration design <br>
                             <i class="fas fa-check pe-2 check-mark"></i>Per day bill
                         </p>
-                        <a href="#" class="btn btn-light fw-bold rounded-pill w-100 px-5">Choose Plan</a>
+                        <a href="https://www.awesomeeventsph.co/weddingpackagesmanila.html"
+                            class="btn btn-light fw-bold rounded-pill w-100 px-5">Choose Plan</a>
                     </div>
                     <span class="position-absolute top-0 hot-sale translate-middle badge rounded-pill bg-danger">
                         Hot Sale
@@ -219,9 +232,9 @@
                 </div>
                 <div class="card border-0 col-lg-3 col-md-6 col-sm-12 p-3">
                     <div class="card-body">
-                        <h1 class="fw-bold">$900</h1>
-                        <h3 class="card-title fw-bold">Real Estate Event</h3>
-                        <p class="card-text text-secondary">For most businesses event
+                        <h1 class="fw-bold">$1200</h1>
+                        <h3 class="card-title fw-bold">Corporate Event</h3>
+                        <p class="card-text text-secondary">For corporate event
                             like book fair, craft fair. <br>
                             <br>
                             <i class="fas fa-check pe-2"></i>limited space access <br>
@@ -230,21 +243,21 @@
                             <i class="fas fa-check pe-2"></i>Decoration design <br>
                             <i class="fas fa-check pe-2"></i>Per day bill
                         </p>
-                        <a href="#" class="btn btn-color fw-bold rounded-pill px-5">Choose Plan</a>
+                        <a href="https://www.awesomeeventsph.co/weddingpackagesmanila.html"
+                            class="btn btn-color fw-bold rounded-pill px-5">Choose Plan</a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- clients review -->
-        <section class="container" id="services">
+        <section class="container my-5 pt-2" id="services">
             <div class="services">
                 <h1 class="text-center fw-bold my-5">Happy Clients Say</h1>
                 <div class="row text-center row-cols-1 row-cols-md-4 g-4">
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="shadow card p-3">
                             <div class="card-body">
-                                <p class="card-text client-review">"I really appreciate the team and enjoy working with
-                                    them all."</p>
+                                <p class="card-text client-review">"I really appreciate the team and enjoy working with them all."</p>
                             </div>
                             <img src="images/client-1.jpg" class="card-img-top p-3 rounded-circle mx-auto w-50 h-50"
                                 alt="...">
@@ -255,8 +268,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="shadow card p-3">
                             <div class="card-body">
-                                <p class="card-text client-review">“They’re able to meet deadlines quickly. They never
-                                    drop the ball.”</p>
+                                <p class="card-text client-review">“They’re able to meet deadlines quickly. They never drop the ball.”</p>
                             </div>
                             <img src="images/client-2.jpg" class="card-img-top p-3 rounded-circle mx-auto w-50 h-50"
                                 alt="...">
@@ -267,8 +279,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="shadow card p-3">
                             <div class="card-body">
-                                <p class="card-text client-review">"They are great partners who are well connected in
-                                    the community."</p>
+                                <p class="card-text client-review">"They are great partners who are well connected in the community."</p>
                             </div>
                             <img src="images/client-3.jpg" class="card-img-top p-3 rounded-circle mx-auto w-50 h-50"
                                 alt="...">
@@ -279,8 +290,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="shadow card p-3">
                             <div class="card-body">
-                                <p class="card-text client-review">"They understood what I needed and delivered every
-                                    time."</p>
+                                <p class="card-text client-review">"They understood what I needed and delivered every time."</p>
                             </div>
                             <img src="images/client-4.jpg" class="card-img-top p-3 rounded-circle mx-auto w-50 h-50"
                                 alt="...">
@@ -291,8 +301,22 @@
                 </div>
             </div>
         </section>
+        <!-- Toast -->
+        <section>
+            <div class="toast show align-items-center  ms-auto mb-5" role="alert" aria-live="assertive"
+                aria-atoshow="true">
+                <div class="d-flex">
+                    <div class="toast-body">
+                        Hello, world! This is a toast message.
+                    </div>
+                    <button type="button" class="btn-close me-2 ms-auto" data-bs-dismiss="toast"
+                        aria-label="Close"></button>
+                </div>
+            </div>
+
+        </section>
         <!-- FAQ here -->
-        <section class="container my-5" id="faq">
+        <section class="container my-5 pb-5" id="faq">
             <h1 class="text-center fw-bold my-5">Frequently Asked Questions</h1>
             <div class="faq-section row row-cols-1 row-cols-md-2 g-5 align-items-center">
                 <div class="accordion col-lg-6 col-md-12 col-sm-12" width="100%" id="accordionExample">
@@ -301,8 +325,7 @@
                             <button class="accordion-button fw-bolder fs-5 text-dark" type="button"
                                 data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
                                 aria-controls="collapseOne">
-                                What’s the difference between event design and
-                                event planning?
+                                What’s the difference between event design and event planning?
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
@@ -349,7 +372,7 @@
                             <div class="accordion-body">
                                 Refund/cancellation policies applicable in the following conditions: a) In case, the
                                 buyer cancels the order online before the product has been shipped, the entire order
-                                amount will be refunded. ... Total order amount after deduction of shipment and handling
+                                amount will be refunded. Total order amount after deduction of shipment and handling
                                 charges will be refunded.
                             </div>
                         </div>
@@ -366,7 +389,7 @@
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 The first question to ask is about the nature of the event, as all subsequent event
-                                planning questions will be determined by this answer
+                                planning questions will be determined by this answer.
                             </div>
                         </div>
                     </div>
@@ -376,31 +399,16 @@
                 </div>
             </div>
         </section>
-        <!-- Toasts -->
-        <section>
-            <div class="toast show align-items-center  ms-auto mb-5" role="alert" aria-live="assertive"
-                aria-atoshow="true">
-                <div class="d-flex">
-                    <div class="toast-body">
-                        Hello, world! This is a toast message.
-                    </div>
-                    <button type="button" class="btn-close me-2 ms-auto" data-bs-dismiss="toast"
-                        aria-label="Close"></button>
-                </div>
-            </div>
-
-        </section>
     </main>
     <!-- footer -->
     <footer class="bg-dark">
         <div class="container">
             <div class="text-white row row-cols-1 row-cols-md-2 align-items-center py-5">
-                <div class="col-lg-10 col-md-12 col-sm-12">
-                    <p>© 2020 elite events. All rights reserved</p>
+                <div class="col-lg-10 col-md-12 col-sm-12 copyright">
+                    <p>© 2020 elite convention center. All rights reserved</p>
                 </div>
-
-                <div class="col-lg-2 col-md-12 col-sm-12 text-center">
-                    <span> Get the app</span><br>
+                <div class="col-lg-2 col-md-12 col-sm-12 app-icon">
+                    <span class="ms-3"> Get the app</span><br>
                     <a href="https://play.google.com/store/"><img src="images/play-store-icon.png" width="200"
                             height="70" alt=""><br></a>
                     <a href="https://www.apple.com/sa/app-store/"><img src="images/apple-app-store.png" width="200"
@@ -410,9 +418,7 @@
         </div>
     </footer>
     <!-- Javascript link -->
-    <script src="bootstrap.bundle.min.js">
-
-    </script>
+    <script src="bootstrap.bundle.min.js"></script>
 
 </body>
 

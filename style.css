@@ -18,8 +18,43 @@ body{
 }
 
 /*----------------------------------
+    Read more btn custom css
+----------------------------------*/
+
+.btn-read-more{
+    background: #538FFB;
+    color: aliceblue;
+
+}
+i.fas.fa-arrow-right {
+    background: none;
+    color: aliceblue;
+}
+
+/*----------------------------------
     Packages custom css
 ----------------------------------*/
+
+.package-title{
+    margin-bottom: 95px;
+}
+
+.fa, .fas {
+    font-weight: 500;
+    background: aliceblue;
+    color: #538FFB;
+    border-radius: 50%;
+    padding: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+
+.btn-color{
+    background:#538FFB;
+    color: white;
+}
 
 .special-package{
     background:#538FFB;
@@ -31,10 +66,6 @@ body{
     margin-left: -8px;
 }
 
-.package-title{
-    margin-bottom: 95px;
-}
-
 .special-package p{
     color: white;
     margin-bottom: 10px;
@@ -42,6 +73,7 @@ body{
 
 .special-package .check-mark{
     background:rgb(142 193 238 / 42%);
+    color: aliceblue;
     
 }
 .special-package a{
@@ -51,20 +83,7 @@ body{
 .hot-sale{
     margin-left: 240px;
 }
-.btn-color{
-    background:#538FFB;
-    color: white;
-}
-.fa, .fas {
-    font-weight: 500;
-    background: aliceblue;
-    color: #538FFB;
-    border-radius: 50%;
-    padding: 5px;
-    margin-bottom: 5px;
-    text-align: center;
-    margin-right: 10px;
-}
+
 
 /*----------------------------------
     Client review custom css
@@ -93,5 +112,11 @@ body{
     }
     .slider-img{
         height: 370px !important;
+    }
+    .copyright{
+        text-align: center;
+    }
+    .app-icon{
+        text-align: center;
     }
 }
